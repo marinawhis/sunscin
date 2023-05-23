@@ -1,17 +1,16 @@
 body {
     padding: 0;
-    background: gray;
+    background: #EDEEEF;
   }
   
-  main {
-    width: 70%;
+  body {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: 
       "nav nav nav nav nav nav"
       ". . . . . ."
-      ". header header header header ."
+      "header header header header header header"
       "body body body body body ."
       "footer footer footer footer footer footer";
   }
@@ -34,11 +33,14 @@ body {
   
   nav {
     grid-area: nav;
-    background: red;
+    color: #fff;
+    background: #000;
   }
+
   header {
     grid-area: header;
-    background: blue;
+    height: 100vh;
+    background: #EDEEEF;
   }
   .title {
     grid-area: title;
@@ -50,5 +52,6 @@ body {
   }
   footer{
     grid-area: footer;
-    background: purple;
+    color: #fff;
+    background: #000;
   }
