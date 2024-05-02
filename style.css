@@ -1,3 +1,11 @@
+body {
+  margin: 0 !important;
+}
+
+.querySelector("spline-viewer") {
+  height: 100dvh;
+}
+
 a#logo {
   display: none !important;
 }
