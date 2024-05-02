@@ -2,7 +2,7 @@ body {
   margin: 0 !important;
 }
 
-.querySelector("spline-viewer") {
+spline-viewer {
   height: 100dvh;
 }
 
