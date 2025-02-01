@@ -5,7 +5,3 @@ body {
 spline-viewer {
   height: 100dvh !important;
 }
-
-a#logo {
-  display: none !important;
-}
